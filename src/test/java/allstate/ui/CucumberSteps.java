@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -16,7 +15,7 @@ public class CucumberSteps extends TestCase{
 	public void user_open_and_select(String arg1, String arg2) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new PendingException();
-		System.setProperty("webdriver.gecko.driver", "/Users/naveensingh/Downloads/geckodriver 2");
+		System.setProperty("webdriver.gecko.driver", "/Users/naveensingh/Downloads/geckodriver");
 		if(arg1.equals("Firefox"))
 		{
 			driver = new FirefoxDriver();

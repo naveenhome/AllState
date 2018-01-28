@@ -1,5 +1,4 @@
 Feature: Calculator for fun
-
   Scenario Outline: Regression Testing
     Given user open <browser> and select <url>
     And user enter <firstVal> and <secondVal>
